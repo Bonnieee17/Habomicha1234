@@ -1,20 +1,16 @@
+
 name: roots_of_life
-description: Roots of Life - Discovering the Types of Mangroves
-version: 1.0.0+1
+description: A simple Flutter app about mangroves.
+publish_to: "none"
+
 environment:
-  sdk: ">=2.18.0 <3.0.0"
+  sdk: ">=3.2.0 <4.0.0"
+  flutter: ">=3.19.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  supabase_flutter: ^2.0.0
-
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
+  supabase_flutter: ^2.5.3
 
 flutter:
   uses-material-design: true
-  assets:
-    - assets/logo.png
-    - assets/placeholder.jpg
